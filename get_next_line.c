@@ -42,7 +42,7 @@ int		copy_to_line(char **arr, char **line, int fd, int file)
 int		get_next_line(const int fd, char **line)
 {
 	int			file;
-	char		buf[BUFF_SIZE];
+	char		buf[BUFF_SIZE + 1];
 	char		*temp;
 	static char	*arr[4864];
 
