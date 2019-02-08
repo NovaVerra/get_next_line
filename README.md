@@ -19,9 +19,7 @@ a variable in a function can vary depending on the call of that very function.
 ## Usage
 
 ```C
-$ make
-$ #include "libft.h"
-$ gcc -Wall -Wextra -Werror main.c -L. libft.a
+$ #include "get_next_line.h"
 ```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
